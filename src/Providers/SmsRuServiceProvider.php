@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace K1s3l\Laravel\SmsRu\Providers;
 
 use K1s3l\Laravel\SmsRu\Channels\SmsRuApi;
 use Illuminate\Support\ServiceProvider;
