@@ -1,0 +1,50 @@
+{
+    "name": "k1s3l/laravel-smsru",
+    "description": "Communicate with the api sms.ru",
+    "keywords": [
+        "k1s3l",
+        "laravel-smsru"
+    ],
+    "homepage": "https://github.com/k1s3l/laravel-smsru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Kiselev",
+            "email": "kis3lewil@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/contracts": "^8.9|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kisel\\Laravel\\SmsRu\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kisel\\Laravel\\SmsRu\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "XDEBUG_MODE=coverage vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kisel\\Laravel\\SmsRu\\Providers\\SmsRuServiceProvider"
+            ]
+        }
+    }
+}
