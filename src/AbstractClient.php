@@ -1,8 +1,8 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu;
+namespace Kisel\Laravel\SmsRu;
 
-use K1s3l\Laravel\SmsRu\Channels\SmsRuApi;
+use Kisel\Laravel\SmsRu\Channels\SmsRuApi;
 
 abstract class AbstractClient
 {

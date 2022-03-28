@@ -1,8 +1,8 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Providers;
+namespace Kisel\Laravel\SmsRu\Providers;
 
-use K1s3l\Laravel\SmsRu\Channels\SmsRuApi;
+use Kisel\Laravel\SmsRu\Channels\SmsRuApi;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Config\Repository as Config;
 

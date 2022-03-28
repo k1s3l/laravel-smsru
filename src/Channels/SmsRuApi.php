@@ -1,9 +1,9 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Channels;
+namespace Kisel\Laravel\SmsRu\Channels;
 
 use GuzzleHttp\Client as HttpClient;
-use K1s3l\Laravel\SmsRu\Factory\{
+use Kisel\Laravel\SmsRu\Factory\{
     FactoryInterface,
     MapFactory
 };
@@ -15,10 +15,10 @@ use Psr\{
 /**
  * Class SmsRuApi
  *
- * @method static \K1s3l\Laravel\SmsRu\SMS\Client sms()
- * @method static \K1s3l\Laravel\SmsRu\BulkSMS\Client bulkSms()
- * @method static \K1s3l\Laravel\SmsRu\Call\Client callNumber()
- * @method static \K1s3l\Laravel\SmsRu\Callback\Client callback()
+ * @method static \Kisel\Laravel\SmsRu\SMS\Client sms()
+ * @method static \Kisel\Laravel\SmsRu\BulkSMS\Client bulkSms()
+ * @method static \Kisel\Laravel\SmsRu\Call\Client callNumber()
+ * @method static \Kisel\Laravel\SmsRu\Callback\Client callback()
  */
 class SmsRuApi
 {

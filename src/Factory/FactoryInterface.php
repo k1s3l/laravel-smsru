@@ -1,6 +1,6 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Factory;
+namespace Kisel\Laravel\SmsRu\Factory;
 
 interface FactoryInterface
 {

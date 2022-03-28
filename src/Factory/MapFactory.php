@@ -1,8 +1,8 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Factory;
+namespace Kisel\Laravel\SmsRu\Factory;
 
-use K1s3l\Laravel\SmsRu\Exceptions\NamespaceNotFoundException;
+use Kisel\Laravel\SmsRu\Exceptions\NamespaceNotFoundException;
 use Psr\Container\ContainerInterface;
 
 class MapFactory implements FactoryInterface, ContainerInterface

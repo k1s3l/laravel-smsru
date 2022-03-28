@@ -1,8 +1,8 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Callback;
+namespace Kisel\Laravel\SmsRu\Callback;
 
-use K1s3l\Laravel\SmsRu\AbstractClient;
+use Kisel\Laravel\SmsRu\AbstractClient;
 
 class Client extends AbstractClient
 {

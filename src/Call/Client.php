@@ -1,8 +1,8 @@
 <?php
 
-namespace K1s3l\Laravel\SmsRu\Call;
+namespace Kisel\Laravel\SmsRu\Call;
 
-use K1s3l\Laravel\SmsRu\AbstractClient;
+use Kisel\Laravel\SmsRu\AbstractClient;
 
 class Client extends AbstractClient
 {
