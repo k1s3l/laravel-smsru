@@ -7,6 +7,12 @@ use Kisel\Laravel\SmsRu\Factory\{
     FactoryInterface,
     MapFactory
 };
+use Kisel\Laravel\SmsRu\{
+    SMS\Client as SMSClient,
+    BulkSMS\Client as BulkSMSClient,
+    Call\Client as CallClient,
+    Callback\Client as CallbackClient,
+};
 use Psr\{
     Container\ContainerInterface,
     Http\Client\ClientInterface
