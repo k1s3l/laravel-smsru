@@ -23,7 +23,7 @@ class SmsRuServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '../sms_ru.php' => config_path('sms_ru.php')
+            __DIR__ . '../../sms_ru.php' => config_path('sms_ru.php')
         ], 'config');
     }
 
